@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image to AI Model</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <form id="upload-form">
+        <input type="file" id="upload-button" accept="image/*">
+        <button type="button" onclick="uploadImage()">Upload and Process</button>
+    </form>
+
+    <div id="response">
+        <!-- Image and result will be displayed here -->
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
